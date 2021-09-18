@@ -103,14 +103,6 @@ a:hover {
     letter-spacing: 0.08em;
 }
 
-/* #features h2 {
-    font-size: 1.5vmax;
-}
-
-#feature-right p {
-    font-size: 0.9vw;
-} */
-
 #div-hero-btn {
     padding-top: 14px;
     padding-bottom: 30px;
@@ -302,8 +294,15 @@ a:hover {
         padding-right: 10px;
     }
 
-    #title {
-        font-size: 30px;
+    .title {
+        font-size: 4vw;
+        margin-bottom: 0;
+        letter-spacing: 0.4px;
+    }
+
+    #hero p {
+        font-size: 2vw;
+        color: #7D764F;
     }
 
     #div-hero-btn {
