@@ -12,8 +12,8 @@ body {
 }
 
 .padding {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
 }
 
 .flex {
@@ -60,9 +60,14 @@ a:hover {
 }
 
 .title {
-    font-size: 60px;
+    font-size: 3.5vw;
     margin-bottom: 0;
     letter-spacing: 0.4px;
+}
+
+#hero p {
+    font-size: 1.2vw;
+    color: #7D764F;
 }
 
 .sub-title {
@@ -95,6 +100,7 @@ a:hover {
     max-width: 70%;
     font-size: 0.9vw;
     color: #E9E0B0;
+    letter-spacing: 0.08em;
 }
 
 /* #features h2 {
@@ -225,11 +231,13 @@ a:hover {
     padding-top: 40px;
     width: 100%;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #feature-img {
+    position: relative;
     max-height: 60vh;
+    left: 10vw;
 }
 
 #div-pricing {
@@ -244,6 +252,37 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#feature-right {
+    width: 30vw;
+    max-width: 30vw;
+}
+
+#feature-right h2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.35%;
+}
+
+.grid-card {
+    border-bottom: 1px solid #121212;
+    display: grid;
+    grid-template-columns: 10% 65% 25%;
+}
+
+.grid-card h4 {
+    font-size: 1.25rem;
+    color: #a8a8a8;
+}
+
+.grid-card h3 {
+    font-size: 1.5rem;
+}
+
+.grid-card button {
+    background-color: transparent;
+    border: none;
+    text-align: end;
 }
 
 /* put last */
